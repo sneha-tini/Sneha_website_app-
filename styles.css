@@ -64,7 +64,7 @@ body {
 .top-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 1rem;
 }
 
@@ -430,6 +430,20 @@ main {
   color: var(--accent-2);
   font-weight: 700;
   font-size: 0.8rem;
+}
+
+.project-link {
+  display: block;
+  width: fit-content;
+  margin-top: 0.7rem;
+  color: var(--accent-2);
+  font-weight: 800;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
 }
 
 .experience-section {
